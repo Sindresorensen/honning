@@ -1,7 +1,7 @@
 /*Ground style*/
 body {
   text-align: center;
-  background-image: url(img/bckgr.jpeg);
+  background-image: url(bckgr.jpeg);
   background-size: cover;
   background-attachment: fixed;
   overscroll-behavior: none;
