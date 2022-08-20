@@ -1,0 +1,53 @@
+.homeContent {
+  height: 550px;
+}
+
+/*Text*/
+.leftContent {
+  float: right;
+  position: absolute;
+  margin-left: 2%;
+  padding: 20px;
+  width: 40%;
+  color: #333333;
+  font-size: 25px;
+}
+
+.rightContent {
+  margin: auto;
+  padding: 60px;
+}
+
+.leftContent a {
+  color: #333;
+  transition: 0.2s;
+}
+.leftContent a:hover {
+  color: #fcedd8;
+}
+
+
+/*Slideshow*/
+#image1{
+	height: 412.5px;
+	width: 550px; /*Forholdet er 0.75 * bredde */
+	border: 2px solid #fcedd8;
+	border-radius: 5px;
+  position: absolute;
+  right: 10%;
+	animation-duration: 60s;
+	animation-name: slider;
+	background-size: cover;
+	animation-iteration-count: infinite;
+}
+@keyframes slider {
+  0%{background-image: url("img/honning1.png");}
+  12.5%{background-image: url("img/birokter1.png");}
+  25%{background-image: url("img/biene.png");}
+  37.5%{background-image: url("img/birokter2.png");}
+  50%{background-image: url("img/birokter3.png");}
+  62.5%{background-image: url("img/birokter4.png");}
+  75%{background-image: url("img/honning3.png");}
+  87.5%{background-image: url("img/honning2.png");}
+  100%{background-image: url("img/honning4.png");}
+}

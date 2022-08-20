@@ -1,0 +1,82 @@
+.order {
+    height: 1000px;
+    width: 40%;
+    margin: auto;
+}
+
+form {
+    text-align: left;
+}
+
+.order h2 {
+    color: #fcedd8;
+    font-size: 35px;
+    text-shadow: 1px 1px 3px #333;
+    padding-bottom: 20px;
+}
+
+.order h4 {
+    font-family: 'Georgia', sans-serif;
+    color: #fcedd8;
+    text-shadow: 1px 1px 3px #333;
+    font-size: 20px;
+}
+
+.order var {
+    color: #333;
+    text-shadow: none;
+}
+
+.order label {
+    font-size: 20px;
+    color: #333;
+    font-family: 'Georgia', sans-serif;
+
+}
+
+.order input {
+    color: #333;
+    width: 60%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 3px;
+    background-color: #fcedd8;
+    border: 1px solid #333;
+    font-size: 17px;
+}
+
+.order select {
+    color: #333;
+    width: 67%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: #fcedd8;
+    font-size: 17px;
+}
+
+#date {
+    cursor: pointer;
+}
+
+#submit {
+    color: #333;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#submit:hover {
+    color: #fcedd8;
+    background-color: #333;
+}
+
+#error {
+    color: red;
+    text-shadow: 1px 1px 3px #fcedd8;
+    font-family: 'Georgia', sans-serif;
+    display: none;
+}
+

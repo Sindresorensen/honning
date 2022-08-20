@@ -1,0 +1,69 @@
+.infoText {
+  margin: auto;
+  width: 90%;
+}
+
+.infoText h2 {
+  color: #fcedd8;
+  font-size: 35px;
+  text-shadow: 1px 1px 3px #333;
+  padding-bottom: 20px;
+}
+.infoText p {
+  font-size: 18px;
+  color: #333;
+  font-family: 'Georgia', sans-serif;
+  line-height: 160%;
+  text-align: left;
+}
+
+.infoText a {
+  color: #333;
+}
+
+.text1, .text2, .text3, .text4 {
+  padding: 20px;
+  width: 85%;
+  margin: auto;
+}
+
+.text1 a {
+  color: #333;
+  transition: 0.2s;
+}
+
+.text1 a:hover {
+  color: #fcedd8;
+}
+
+.parent {
+  display: table-row;
+}
+.child-left {
+  display: table-cell;
+  padding-right: 20px;
+}
+.child-right {
+  padding-left: 20px;
+  display: table-cell;
+}
+
+
+
+.source {
+  padding: 20px;
+  width: 85%;
+  margin: auto;
+}
+#source {
+  font-family: 'Georgia', sans-serif;
+  color: #fcedd8;
+  text-shadow: 0.5px 0.5px 0.5px #333;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+#source:hover {
+  color: #fcedd8;
+  text-shadow: 1px 1px 3px #333;
+}

@@ -1,0 +1,137 @@
+/*Ground style*/
+body {
+  text-align: center;
+  background-image: url(img/bckgr.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  overscroll-behavior: none;
+}
+.main {
+  background-color: #f5c17d;
+  width: 90%;
+  margin: auto;
+}
+
+/*Subtitle*/
+h1 {
+  font-size: 70px;
+  color: #fcedd8;
+  font-family: 'Georgia', sans-serif;
+  text-shadow: 2px 2px 0px #333;
+ 	/*font-family: 'Niconne', cursive;
+  text-shadow: 3px 3px 0px #eb452b, 5px 5px 0px #edcf37;*/
+}
+h1:hover {
+  cursor: pointer;
+}
+.header {
+  margin-top: -10px;
+  border: 2px solid transparent;
+}
+
+/*Buttons*/
+.navigationbar {
+  /*background-image: url(flowers.webp);
+  background-size: cover;*/
+  height: 65px;
+  border-bottom: 5px solid #fcedd8;
+}
+.navigationbar button {
+  color: #fcedd8;
+  background: rgb(51, 51, 51, .8);
+  font-size: 23px;
+  border-radius: 2px;
+  border: none;
+  width: 210px;
+  padding: 8px;
+  margin: 2px;
+  transition: 0.2s;
+  box-shadow: inset 0 0 3px #fcedd8;
+  /*font-family: 'Courier New', monospace;*/
+  font-family: 'Georgia', sans-serif;
+}
+.navigationbar button:hover {
+  box-shadow: inset 0 0 6px #fcedd8;
+  cursor: pointer;
+  color: #333;
+  background: transparent;
+  /*background: url(flowers2.jpeg);
+  background-size: cover;*/
+}
+/*
+button div {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+button div img {
+  height: 30px;
+  top: -1px;
+  position: relative;
+}
+*/
+
+/*Bottom w/contactinfo*/
+footer {
+  margin-bottom: -10px;
+  text-align: center;
+  position: relative;
+  height: 200px;
+  background-color: #333;
+  bottom: 0px;
+  color: #fcedd8;
+}
+footer img {
+  position: absolute;
+  left: 2%;
+  top: 15%;
+  width: 140px;
+}
+.soMe, .contact, .address {
+  position: absolute;
+  text-align: left;
+  height: 100%;
+  width: 200px;
+}
+.soMe {
+  left: 20%;
+}
+.soMe p, .contact p, .address p {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+.soMe div {
+  float: left;
+}
+.footer ion-icon {
+  font-size: 35px;
+}
+.contact {
+  left: 50%;
+  margin: auto;
+  width: 20%;
+}
+.address {
+  left: 82%;
+}
+#adr {
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+  color: #fcedd8;
+  text-decoration: none;
+}
+.soMe a, .contact a {
+  position: absolute;
+  font-size: 17px;
+  font-family: Verdana, sans-serif;
+  padding: 15px;
+  color: #fcedd8;
+  text-decoration: none;
+}
+#f, #tlf {
+  top: 33%;
+}
+#i, #mail {
+  top: 61%;
+}
